@@ -12,8 +12,8 @@ A simple comments list app built with React and Webpack
 First, clone the project:
 
 ```bash
-$ git clone git@github.com:infantito/skeleton-webpack-react.git <project-name>
-$ cd <project-name>
+$ git clone git@github.com:infantito/comments-react.git
+$ cd comments-react
 ```
 
 Then, install the dependencies. It is recommended to use Yarn, (because it is blazing fast). You can still use npm as well.

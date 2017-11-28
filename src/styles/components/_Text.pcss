@@ -1,0 +1,58 @@
+@import '../utils/_variables.pcss';
+
+/* Using :global keyword when you won't want your selector parses  [hash] */
+:global(#root) {
+  .title {
+    color: var(--color-selection);
+    font-family: var(--font-text);
+    font-size: 1.5rem;
+    font-weight: 900;
+    padding: 10px 0;
+  }
+
+  :global .i {
+    &-edit,
+    &-remove,
+    &-save {
+      color: var(--color-placeholder);
+      cursor: pointer;
+      display: inline-block;
+      font-family: var(--font-icon);
+      font-size: 18px;
+      font-style: normal;
+      font-variant: normal;
+      font-weight: normal;
+      line-height: 1;
+      margin: 0 5px;
+      speak: none;
+      text-transform: none;
+      vertical-align: middle;
+
+      &:active {
+        transform: scale(0.85);
+      }
+
+      &:hover {
+        color: var(--color-sky);
+      }
+    }
+
+    :global &-edit {
+      &::before {
+        content: var(--i-edit);
+      }
+    }
+
+    :global &-remove {
+      &::before {
+        content: var(--i-remove);
+      }
+    }
+
+    :global &-save {
+      &::before {
+        content: var(--i-save);
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "comments": [
+    { "id": 1, "comment": "Hi Daniel"},
+    { "id": 2, "comment": "Welcome to the developers world"},
+    { "id": 3, "comment": "Oh my god!"},
+    { "id": 4, "comment": "I want to learn GraphQL"},
+    { "id": 5, "comment": "Apollo, too :)"}
+  ]
+}
